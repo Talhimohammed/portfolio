@@ -26,7 +26,7 @@ function Certifications() {
                  path='https://www.coursera.org/account/accomplishments/records/VNVWJUNJXTV6?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course'
                 />   
                 <Certificate
-                 src="images/DesignP.jpg" 
+                 src="images/designP.jpg" 
                  text="" 
                  label=""  
                  path='https://www.coursera.org/account/accomplishments/records/3HQJY66BUV7R'
@@ -38,13 +38,13 @@ function Certifications() {
                  path='https://www.coursera.org/account/accomplishments/records/2XNQYYBLTHTK'
                 />  
                 <Certificate
-                 src="images/React.jpg" 
+                 src="images/react.jpg" 
                  text="" 
                  label=""  
                  path="https://www.coursera.org/account/accomplishments/records/5UT4YNKWRFW2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
                 />    
                 <Certificate
-                 src="images/Agile.jpg" 
+                 src="images/agile.jpg" 
                  text="" 
                  label=""  
                  path='https://www.coursera.org/account/accomplishments/records/26WBZEHDLK3J?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course'
@@ -60,4 +60,4 @@ function Certifications() {
     )
 }
 
-export default Certifications
+export default Certifications ; 
