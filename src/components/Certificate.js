@@ -1,5 +1,4 @@
 import React from 'react' ;   
-import { Link } from "react-router-dom";
 
 
 function Certificate(props) {
@@ -14,7 +13,7 @@ function Certificate(props) {
             </figure> 
 
             <div className="certificates__item__info"> 
-            <h5 className="certificates__item__text" >{props.text}</h5>
+            <div className="certificates__item__text">{props.text}</div>
             </div>
           </a>
         </li>  

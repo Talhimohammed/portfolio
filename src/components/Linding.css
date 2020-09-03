@@ -1,12 +1,17 @@
 .About__Container { 
  
      padding-top: 20px; 
-     padding-bottom: 20px; 
+     padding-bottom: 20px;    
+     background-color: white;
 
-     /* margi*/ 
-     
-     
   
+} 
+
+.aboutme_text { 
+ 
+   font-size:40px ; 
+   margin-bottom: 40px ;
+
 }
 
 .avatar-img {
@@ -56,18 +61,19 @@
   } 
 
   .social-links {
-    display: flex; 
+    display: inline-flex ;  /*Making space between social media links*/
     justify-content: space-between;
     width: 50%;
-    margin: auto;
+    margin: 0 auto; 
+   
   }  
-
 
   /* Social links*/
   .social-links a {
     text-decoration: none;
     font-size: 22px;
-    color: black;
+    color: black; 
+   
   }
   
   .social-links i {

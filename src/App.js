@@ -21,7 +21,6 @@ function App() {
        
         <Switch>  
             <Route exact component={Home}/>   
-            
         </Switch>  
         <Footer />
        </div>  

@@ -13,7 +13,6 @@ function Home() {
         <>  
              <VideoSection />    
              <ScrollToTop />  
-             {/* this is not mandatory for scrolling to the top */}
              <ScrollIndicator /> 
              <Cards />  
              <Certifications />

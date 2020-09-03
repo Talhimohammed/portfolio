@@ -26,7 +26,7 @@ function NavBar() {
 
     return ( 
           
-            <> 
+    
              <nav className="navbar"> 
                 <div className="navbar-container"> 
                  <Link to='/'  className="navbar-logo" onClick={closeMobileMenu} > 
@@ -36,35 +36,14 @@ function NavBar() {
                   <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                  </div>   
                   <ul className={click ? 'nav-menu active' : 'nav-menu'}>  
-                     
-                     <li  className="nav-item">
-                         <a href="#projects" className='nav-links' onClick={closeMobileMenu} > 
-                          Projects</a>  
-                     </li>  
-                     <li className="nav-item">
-                      
-                         <a href="#AboutMe" className='nav-links' onClick={closeMobileMenu}>  
-                          About me </a>
-                      
-                     </li>  
-                     <li className="nav-item"> 
-                         <a href="#ContactMe" className='nav-links' onClick={closeMobileMenu}>  
-                          Contact me </a>
-                     </li>  
-                     <li className="nav-item"> 
-                         <a href="#certifications" className='nav-links' onClick={closeMobileMenu}>  
-                          Certifications </a>
-                     </li>         
-                     
-                  </ul>    
-                
-
-                
-                   
-                    
-                </div> 
+                     <li  className="nav-item"><a href="#projects" className='nav-links' onClick={closeMobileMenu} >Projects</a></li>  
+                     <li className="nav-item"><a href="#AboutMe" className='nav-links' onClick={closeMobileMenu}>About me</a></li>  
+                     <li className="nav-item"><a href="#ContactMe" className='nav-links' onClick={closeMobileMenu}>Contact me</a></li>  
+                     <li className="nav-item"><a href="#certifications" className='nav-links' onClick={closeMobileMenu}>Certifications</a></li>        
+                  </ul>            
+             </div> 
              </nav> 
-            </> 
+           
          
     )
 }

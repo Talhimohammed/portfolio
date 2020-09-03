@@ -6,18 +6,15 @@ import ScrollAnimation from 'react-animate-on-scroll' ;
 
 function  VideoSection() { 
  
-             const [click,setClick] = useState(false);    
+             const [click,setClick]  =   useState(false);    
 
-             const ButtonClick = () =>  setClick(!click) ; 
-      
-                 
-            
+             const ButtonClick = ()  =>  setClick(!click) ; 
 
     return (  
       <> 
-        <div className="video-container">   
+        <div className="image-container">   
               
-              <video src='videos/simo.mp4' autoPlay loop muted/>  
+              
               <h1><ScrollAnimation animateIn="fadeIn" duration="2">
               Hi , I'm mohammed   
              </ScrollAnimation></h1> 
@@ -33,7 +30,6 @@ function  VideoSection() {
                        
                 </Button>   
 
-            
               </div> 
 
               {/* Modal content  */}
@@ -42,14 +38,14 @@ function  VideoSection() {
              <div className="modal-content">
                   <div className="modal-header">
                     <span className="close" onClick={ButtonClick}>&times;</span>
-                     <h2>CHOOSE LANGUAGE</h2>
+                     <div className="title">CHOOSE LANGUAGE</div>
                   </div>
                 <div className="modal-body">
                          <a href="resumes/TALHI_RESUME_ENGLISH.pdf" onClick={ButtonClick} download>English</a>
                          <a href="resumes/TALHI_RESUME_FRENCH.pdf" onClick={ButtonClick} download>French</a>
                 </div>
                 <div className="modal-footer">
-                    
+
     ,           </div>
                   </div>
                </div>

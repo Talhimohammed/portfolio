@@ -28,7 +28,7 @@
     display: flex;
     flex: 1; 
     width: 50vh ; 
-    height: 80vh ;
+    height: auto ;
     margin: 0 1rem;
     border-radius: 10px;
   }
@@ -92,13 +92,21 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 30px 30px; 
+    align-items: center;
   }
   
-  .cards__item__text {
+  .cards__item__text {  
+
     color: #252e48;
+    font-size: 15px;
+    line-height: 24px;  
+    
+  
+
+   /* color: #252e48;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 24px; */
   }
   
   @media only screen and (min-width: 1200px) {
@@ -107,7 +115,7 @@
     }
   }
   
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1030px) {
     .cards__items {
       display: flex;
     }
@@ -116,12 +124,13 @@
   @media only screen and (max-width: 1024px) {
     .cards__item { 
       margin-bottom: 2rem ; 
-      height: 60vh;  
+      height: auto ;  
       
-    } 
+    }  
+
     .more__projects { 
-     
-       font-size: 10px ; 
+      
+       font-size: 0.8em ; 
        
     }
   } 

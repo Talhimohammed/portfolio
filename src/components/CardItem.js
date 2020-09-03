@@ -13,7 +13,7 @@ function cardItem(props) {
             </figure> 
 
             <div className="cards__item__info"> 
-    <h5 className="cards__item__text" >{props.text}</h5>
+    <div className="cards__item__text" >{props.text}</div>
             </div>
           </a>
         </li>  

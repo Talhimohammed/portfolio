@@ -11,13 +11,9 @@ function Cards() {
         <div id="cards"> 
              <h1 id="projects">SOME OF MY PAST PROJECTS</h1>  
           <div className="cards__container"> 
-          
             <div className="cards__wrapper"> 
-            
-               <ul className="cards__items">  
-
+               <ul className="cards__items"> 
                <ScrollAnimation animateIn="fadeIn" duration="2">
-                
                     <CardItem 
                       src="images/corona_logo.jpg" 
                       text="With this simple android application , you can track the current impact of the coronavirus pandemic and its spread throughout the world ( cases , deaths , recoveries and other statistics ) ." 
@@ -25,8 +21,6 @@ function Cards() {
                       path='https://github.com/Talhimohammed/Corona_Tracker'
                     />   
               </ScrollAnimation>      
-              
-
                <ScrollAnimation animateIn="fadeIn" duration="2">  
                     <CardItem 
                       src="images/proltech.png" 
@@ -35,8 +29,6 @@ function Cards() {
                       path='/'
                     />   
               </ScrollAnimation>    
-               
-
                <ScrollAnimation animateIn="fadeIn" duration="2">  
                     <CardItem 
                       src="images/healthcare2.jpg" 
@@ -47,18 +39,11 @@ function Cards() {
                       path='https://github.com/Talhimohammed/HealthCare-App-'
                     />   
                </ScrollAnimation>     
-                    
                </ul> 
-
                <div className="more__projects">You wanna see more projects ! check my Github account  <a href="https://github.com/Talhimohammed">CLICK HERE</a></div>
-              
             </div>
-          
           </div>
-    
         </div>  
-   
-       
     )
 }
 
