@@ -14,9 +14,8 @@ function  VideoSection() {
       <> 
         <div className="image-container">   
               
-              
-              <h1><ScrollAnimation animateIn="fadeIn" duration="2">
-              Hi , I'm mohammed   
+              <h1><ScrollAnimation animateIn="fadeIn" duration="5">
+              Hi , I'm Mohammed   
              </ScrollAnimation></h1> 
                <AnimationText />
               <div className="hero-btns">  

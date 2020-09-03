@@ -12,7 +12,7 @@ function AnimationText() {
 
                      <div class="role">
                      <div class="block"></div>
-                     <p>Software Engineer</p>
+                   {/* <p>Software Engineer</p> */}  
                  </div>
               </div>
           </div> 
