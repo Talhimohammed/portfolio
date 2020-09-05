@@ -39,7 +39,9 @@ function Contact() {
               
             </div>  
 
-           { Click && <h4>EMAIL COPIED</h4> }
+            <h4> { Click && "EMAIL COPIED" } </h4> 
+
+            
         </div> 
         </section>
     )
