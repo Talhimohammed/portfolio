@@ -24,15 +24,15 @@ function Cards() {
                <ScrollAnimation animateIn="fadeIn" duration="2">  
                     <CardItem 
                       src="images/proltech.png" 
-                      text="PROLTECH it's a desktop application that allows you to manage and monitor your IT projects , by using this app you can create projects , invite consultants , and monitor project's performance ..." 
+                      text="PROLTECH is a desktop application that allows you to manage and monitor your IT projects , by using this app you can create projects , invite consultants , and monitor project's performance ..." 
                       label="Desktop Application"  
-                      path='/'
+                      path='https://github.com/Talhimohammed/IT_Project_Management'
                     />   
               </ScrollAnimation>    
                <ScrollAnimation animateIn="fadeIn" duration="2">  
                     <CardItem 
                       src="images/healthcare2.jpg" 
-                      text="This Health application allows Doctors to monitor their patients and manage the patient's medical records and appointments , 
+                      text="This HealthCare application allows Doctors to monitor their patients and manage the patient's medical records and appointments , 
                             and it also provides a GPS system with router planner wich makes it easier to find doctor's office .   
                             " 
                       label="Android Application"  
